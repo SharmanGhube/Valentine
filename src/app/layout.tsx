@@ -17,6 +17,17 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "💕 Be My Valentine, Khushi? 💕",
   description: "A special Valentine's message from Sharman to Khushi",
+  icons: { icon: "data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💕</text></svg>" },
+  openGraph: {
+    title: "💕 Be My Valentine, Khushi? 💕",
+    description: "Someone has a very important question for you...",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "💕 Be My Valentine, Khushi? 💕",
+    description: "Someone has a very important question for you...",
+  },
 };
 
 export default function RootLayout({
